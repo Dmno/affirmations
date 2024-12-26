@@ -1,4 +1,4 @@
-FROM php:8.3-fpm
+FROM php:8.1-fpm
 
 # Install required packages
 RUN apt-get update && apt-get install -y wget git-core libzip-dev zip unzip
